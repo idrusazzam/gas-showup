@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" role="img" aria-labelledby="title desc">
+<title id="title">Gas ShowUp</title><desc id="desc">Logo Gas ShowUp dengan simbol G terbuka dan titik gerak.</desc>
+<g transform="translate(8 8)">
+<rect width="104" height="104" rx="26" fill="#0B5FA5"/>
+<path d="M74 28a31 31 0 1 0 4 38" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+<path d="M51 55h31v23" fill="none" stroke="#FFB703" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78" cy="20" r="7" fill="#FFB703"/>
+</g>
+<text x="132" y="79" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#13233B">Gas</text>
+<text x="259" y="79" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#0B5FA5">ShowUp</text>
+</svg>
