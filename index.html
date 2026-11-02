@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>GasShowUp | Platform kolaborasi riset STEM untuk pelajar Indonesia</title>
+<title>Gas ShowUp | Platform Kolaborasi Riset STEM Pelajar Indonesia</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -79,12 +79,19 @@ nav ul{display:none}
 section{padding:52px 0}.join{padding:32px 20px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.logo{display:inline-flex;align-items:center;text-decoration:none}.logo img{display:block;width:184px;height:auto}
+.menu-toggle{display:none;border:1px solid var(--border);background:var(--white);border-radius:10px;padding:9px;cursor:pointer}
+.menu-toggle span{display:block;width:21px;height:2px;background:var(--ink);margin:4px 0;border-radius:2px}
+.footer-brand{display:flex;flex-direction:column;gap:10px}.footer-brand img{width:170px;height:auto}.footer-brand p{margin:0}.footer-note{font-size:12px;color:var(--ink-3)}
+@media(max-width:768px){.nav{position:relative}.menu-toggle{display:block;margin-left:auto}.nav-cta{display:none}.nav-links{display:none!important}.menu-toggle[aria-expanded="true"]+nav{display:block!important;position:absolute;top:60px;left:0;right:0;background:var(--white);padding:14px 24px;border-bottom:1px solid var(--border);box-shadow:var(--shadow-md)}.menu-toggle[aria-expanded="true"]+nav ul{display:flex;flex-direction:column;gap:12px}}
+
 </style>
 </head>
 <body>
 <header><div class="wrap nav">
-<a class="logo" href="#top">Gas<span>ShowUp</span></a>
-<nav aria-label="Utama"><ul><li><a href="#platform">Platform</a></li><li><a href="#proyek">Proyek</a></li><li><a href="#divisi">Divisi</a></li><li><a href="#alur">Alur</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+<a class="logo" href="#top" aria-label="Gas ShowUp beranda"><img src="/assets/gas-showup-logo.svg" alt="Gas ShowUp"></a>
+<button class="menu-toggle" type="button" aria-label="Buka menu" aria-controls="primary-nav" aria-expanded="false"><span></span><span></span><span></span></button><nav id="primary-nav" aria-label="Utama"><ul><li><a href="#platform">Platform</a></li><li><a href="#proyek">Proyek</a></li><li><a href="#divisi">Divisi</a></li><li><a href="#alur">Alur</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
 <a class="btn" href="#gabung">Gabung tim</a>
 </div></header>
 
@@ -92,7 +99,7 @@ section{padding:52px 0}.join{padding:32px 20px}
 <div class="wrap hero">
 <div>
 <h1>Tunjukkan risetmu. Bangun bersama pelajar lain.</h1>
-<p class="lead">GasShowUp adalah platform kolaborasi riset STEM untuk pelajar Indonesia. Kamu menyusun karyamu, mencatat proses risetnya, dan menerima peer review yang inklusif.</p>
+<p class="lead">Gas ShowUp adalah platform kolaborasi riset STEM untuk pelajar Indonesia. Kamu menyusun karyamu, mencatat proses risetnya, dan menerima peer review yang inklusif.</p>
 <div class="cta"><a class="btn" href="#gabung">Daftar jadi anggota tim</a><a class="btn ghost" href="#proyek">Lihat proyek lapangan</a></div>
 </div>
 <aside class="logbook" aria-label="Contoh catatan riset">
@@ -104,8 +111,8 @@ section{padding:52px 0}.join{padding:32px 20px}
 </div>
 
 <section id="platform"><div class="wrap">
-<h2>Tiga hal yang kamu lakukan di GasShowUp</h2>
-<p>Banyak pelajar punya ide riset tetapi tidak punya tempat untuk mengerjakannya dengan rapi. GasShowUp menyediakan tempat itu.</p>
+<h2>Tiga hal yang kamu lakukan di Gas ShowUp</h2>
+<p>Banyak pelajar punya ide riset tetapi tidak punya tempat untuk mengerjakannya dengan rapi. Gas ShowUp menyediakan tempat itu.</p>
 <div class="three">
 <div class="card"><h3>Bangun karyamu</h3><p>Kamu menyusun proyek dari ide sampai laporan. Setiap proyek punya halaman sendiri.</p></div>
 <div class="card"><h3>Catat perjalananmu</h3><p>Kamu menulis log riset secara berkala. Prosesmu terlihat, bukan hanya hasil akhirnya.</p></div>
@@ -113,33 +120,33 @@ section{padding:52px 0}.join{padding:32px 20px}
 </div></div></section>
 
 <section id="proyek" class="band"><div class="wrap">
-<h2>Proyek lapangan di bawah koordinasi GasShowUp</h2>
-<p>Tiga proyek ini berjalan sebagai studi kasus nyata. Masing-masing menguji cara kerja riset berbasis sistem di lapangan.</p>
+<h2>Inisiatif dan kajian yang didokumentasikan</h2>
+<p>Segar Systems dan SELAT merupakan inisiatif kajian dengan fokus berbeda. Contoh konteks studi dapat ditambahkan setelah ruang lingkup, status, dan informasinya dikonfirmasi.</p>
 <div class="proj">
-<article class="card"><span class="tag">Energi dan infrastruktur pesisir</span><h3>Segar Offgrid</h3>
-<p>Dispenser air otomatis bertenaga surya yang berdiri sendiri, dengan konsumsi daya 1,76 Watt.</p>
-<ul class="facts"><li>Mitra: BRIN dan ITB</li><li>Pendekatan: rekayasa hemat biaya</li><li>Alat analisis: kalkulus integral dan Simplex Method</li></ul></article>
-<article class="card"><span class="tag">Logistik dan UMKM</span><h3>SELAT Network</h3>
-<p>Optimasi rantai pasok untuk UMKM Dodol Cilenggang agar distribusi lebih efisien dan daya tawar pelaku usaha naik.</p>
-<ul class="facts"><li>Mitra: Kadin Indonesia dan Kementerian Koperasi dan UKM</li><li>Pendekatan: arsitektur manajemen rantai pasok</li></ul></article>
-<article class="card"><span class="tag">Operasional UMKM lokal</span><h3>Dodol Cilenggang</h3>
-<p>Pemetaan stok dan hambatan distribusi sebuah UMKM di Serpong. Hasilnya menjadi data awal untuk SELAT Network.</p>
-<ul class="facts"><li>Lokasi: Serpong</li><li>Fokus: stok dan distribusi</li></ul></article>
+<article class="card"><span class="tag">Energi dan distribusi</span><h3>Segar Systems</h3>
+<p>Inisiatif kajian mengenai distribusi energi dan logistik, termasuk pertanyaan tentang penyediaan energi untuk kebutuhan infrastruktur.</p>
+<ul class="facts"><li>Fokus: distribusi energi dan logistik</li><li>Arah kajian: sistem energi yang sesuai dengan kebutuhan lapangan</li><li>Rincian teknis: dipublikasikan setelah status rancangan dan pengukurannya dikonfirmasi</li></ul></article>
+<article class="card"><span class="tag">Rantai pasok lokal</span><h3>SELAT</h3>
+<p>Studi independen mengenai rantai pasok lokal. Kajian ini diarahkan untuk memahami aliran barang, informasi, persediaan, dan distribusi.</p>
+<ul class="facts"><li>Fokus: rantai pasok lokal</li><li>Arah kajian: pemetaan proses dan permasalahan distribusi</li><li>Metode dan studi kasus: ditetapkan berdasarkan ruang lingkup penelitian</li></ul></article>
+<article class="card"><span class="tag">Contoh konteks kajian</span><h3>UMKM Dodol Cilenggang</h3>
+<p>Nama ini tercantum sebagai konteks studi UMKM di Serpong dalam rancangan kajian rantai pasok. Penyebutan sebagai studi kasus aktif menunggu konfirmasi ruang lingkup dan pelaksanaannya.</p>
+<ul class="facts"><li>Wilayah: Serpong</li><li>Topik yang diusulkan: persediaan dan distribusi</li><li>Status: konteks kajian, belum dinyatakan sebagai proyek terpisah</li></ul></article>
 </div></div></section>
 
 <section id="divisi"><div class="wrap">
-<h2>Enam divisi yang menjalankan GasShowUp</h2>
-<p>Pilih divisi untuk melihat tugas dan keahlian yang kami cari. Kamu bisa memilih satu divisi utama dan satu divisi cadangan saat mendaftar.</p>
+<h2>Enam divisi yang menjalankan Gas ShowUp</h2>
+<p>Pilih divisi untuk melihat tugas dan keahlian yang kami cari. Kamu dapat menyampaikan satu pilihan utama dan satu pilihan cadangan saat proses rekrutmen dibuka.</p>
 <div class="div-wrap">
 <div class="tabs" role="tablist" aria-label="Divisi"></div>
 <div id="panels"></div>
 </div></div></section>
 
 <section id="alur" class="band"><div class="wrap">
-<h2>Cara kerja riset di GasShowUp</h2>
+<h2>Cara kerja riset di Gas ShowUp</h2>
 <div class="steps">
 <div class="step"><h3>Ajukan ide</h3><p>Kamu menulis pertanyaan riset dan alasan pentingnya.</p></div>
-<div class="step"><h3>Bentuk tim</h3><p>Divisi Education and Research mencocokkan kamu dengan mentor dan rekan.</p></div>
+<div class="step"><h3>Rancang kolaborasi</h3><p>Tim meninjau kebutuhan penelitian dan mencari rekan atau mentor yang relevan ketika tersedia.</p></div>
 <div class="step"><h3>Kerjakan dan catat</h3><p>Kamu mengerjakan riset dan mengisi log secara rutin.</p></div>
 <div class="step"><h3>Tampilkan karya</h3><p>Karyamu masuk sesi review dan showcase yang dikelola divisi Program and Event.</p></div>
 </div></div></section>
@@ -158,25 +165,25 @@ section{padding:52px 0}.join{padding:32px 20px}
 <details><summary>Siapa yang bisa bergabung?</summary><p>Pelajar Indonesia yang tertarik pada riset STEM dan kolaborasi. Kamu tidak perlu pengalaman riset sebelumnya.</p></details>
 <details><summary>Saya tidak punya latar belakang STEM. Apakah tetap bisa daftar?</summary><p>Bisa. Divisi seperti Secretary, Human Capital, Communication and Media Campaign, dan External Relations membutuhkan keterampilan di luar sains.</p></details>
 <details><summary>Bagaimana jika saya tidak diterima di divisi pilihan?</summary><p>Formulir pendaftaran menanyakan apakah kamu bersedia ditempatkan di divisi lain. Kamu juga mengisi satu divisi kedua.</p></details>
-<details><summary>Apa yang perlu saya siapkan?</summary><p>CV, alasan memilih divisi, dan cerita tentang pengalaman atau keterampilan yang belum tercantum di CV.</p></details>
+<details><summary>Apa yang perlu saya siapkan?</summary><p>Minat akademik, pengalaman yang relevan, alasan memilih divisi, dan contoh karya bila tersedia. Portofolio tidak harus berupa publikasi.</p></details>
 </div></section>
 
 <section id="gabung"><div class="wrap">
 <div class="join">
 <h2>Pilih divisimu dan daftar</h2>
 <p>Isi formulir, pilih divisi utama dan divisi kedua, lalu ceritakan alasanmu.</p>
-<a class="btn" href="#" id="formlink">Buka formulir pendaftaran</a>
+<a class="btn" href="https://instagram.com/gasshowup" id="formlink" target="_blank" rel="noopener noreferrer">Hubungi Gas ShowUp di Instagram ↗</a>
 </div></div></section>
 </main>
 
-<footer><div class="wrap">GasShowUp. Platform kolaborasi riset STEM untuk pelajar Indonesia.</div></footer>
+<footer><div class="wrap footer-brand"><a href="#top" aria-label="Gas ShowUp beranda"><img src="/assets/gas-showup-logo.svg" alt="Gas ShowUp"></a><p>Platform kolaborasi riset STEM untuk pelajar Indonesia.</p><p class="footer-note">Kemitraan dengan kampus, perusahaan, dan lembaga penelitian merupakan arah pengembangan ke depan, bukan klaim kerja sama yang sudah berjalan.</p></div></footer>
 
 <script>
 var D=[
 ["Secretary","Menjaga administrasi dan arsip tim tetap rapi.",["Menulis notulen rapat","Mengelola arsip dan dokumen kerja sama","Menyusun jadwal dan pengingat tenggat"],"Teliti, rapi, terbiasa menulis formal."],
 ["Human Capital","Merekrut, membina, dan menjaga ritme anggota.",["Menjalankan seleksi dan onboarding","Memantau beban kerja anggota","Menyusun evaluasi berkala dan kegiatan kebersamaan"],"Peduli pada orang, mau mendengar, adil."],
 ["Program & Event","Merancang kegiatan yang mempertemukan peneliti muda.",["Menyusun sesi review dan showcase","Mengatur webinar dan workshop","Mengelola logistik dan susunan acara"],"Terorganisir, tenang di bawah tenggat."],
-["Communication and Media Campaign","Menjelaskan GasShowUp dan karya anggotanya kepada publik.",["Membuat konten dan desain media sosial","Mendokumentasikan kegiatan","Merawat website dan identitas visual"],"Desain grafis, menulis, foto, video, atau pengelolaan media sosial."],
+["Communication and Media Campaign","Menjelaskan Gas ShowUp dan karya anggotanya kepada publik.",["Membuat konten dan desain media sosial","Mendokumentasikan kegiatan","Merawat website dan identitas visual"],"Desain grafis, menulis, foto, video, atau pengelolaan media sosial."],
 ["External Relations","Membangun hubungan dengan sekolah, kampus, mentor, dan mitra.",["Menghubungi calon mitra dan mentor","Menyusun proposal kerja sama","Menjaga komunikasi dengan mitra proyek lapangan"],"Percaya diri berkomunikasi, sopan, konsisten menindaklanjuti."],
 ["Education and Research","Menjaga mutu riset dan bahan belajar anggota.",["Menyusun panduan riset dan modul belajar","Mengatur protokol peer review","Mencocokkan anggota dengan mentor riset"],"Minat pada metode riset, membaca jurnal, berpikir kritis."]
 ];
@@ -190,6 +197,19 @@ d[2].forEach(function(t){var li=document.createElement("li");li.textContent=t;p.
 b.onclick=function(){D.forEach(function(_,j){document.getElementById("t"+j).setAttribute("aria-selected",j===i);document.getElementById("p"+j).hidden=j!==i})};
 tabs.appendChild(b);panels.appendChild(p);
 });
+
+const menuButton = document.querySelector(".menu-toggle");
+const primaryNav = document.querySelector("#primary-nav");
+if (menuButton && primaryNav) {
+  menuButton.addEventListener("click", () => {
+    const expanded = menuButton.getAttribute("aria-expanded") === "true";
+    menuButton.setAttribute("aria-expanded", String(!expanded));
+  });
+  primaryNav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+    menuButton.setAttribute("aria-expanded", "false");
+  }));
+}
+
 </script>
 </body>
 </html>
